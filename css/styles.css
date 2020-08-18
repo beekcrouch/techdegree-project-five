@@ -355,5 +355,12 @@ template {
 /* ============================================ */
 /*             Grid Styles                      */
 /* ============================================ */
+.grid {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: minmax(200px, 200px);
+  grid-template-rows: 200px;
+  gap: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
