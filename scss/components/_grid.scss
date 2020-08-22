@@ -8,5 +8,15 @@
     grid-template-columns: minmax(200px, 200px);
     grid-template-rows: 200px;
     gap: 10px;
+
+    background-color: #fff;
+}
+
+.item {
+    color: rgb(172, 93, 172);
+    border: solid 2px red;
+    &:nth-child(even) {
+        background-color: rgb(108, 182, 140);
+    }
 }
 
