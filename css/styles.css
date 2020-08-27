@@ -376,13 +376,11 @@ template {
 /*             Grid Styles                      */
 /* ============================================ */
 .grid {
-  max-width: 1000px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
   grid-template-rows: repeat(3, 1fr);
   gap: 25px;
-  justify-items: center;
-  align-items: center;
 }
 
 /* ============================================ */
