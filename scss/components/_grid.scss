@@ -4,19 +4,12 @@
 
 .grid {
     max-width: 1000px;
+    height: 100vh;
     display: grid;
-    grid-template-columns: minmax(200px, 200px);
-    grid-template-rows: 200px;
-    gap: 10px;
-
-    background-color: #fff;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
 }
 
-.item {
-    color: rgb(172, 93, 172);
-    border: solid 2px red;
-    &:nth-child(even) {
-        background-color: rgb(108, 182, 140);
-    }
-}
+
 
