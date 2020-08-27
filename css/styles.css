@@ -377,19 +377,20 @@ template {
 /* ============================================ */
 .grid {
   max-width: 1000px;
-  height: 100vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
+  gap: 25px;
+  justify-items: center;
+  align-items: center;
 }
 
 /* ============================================ */
 /*            Image Styles                      */
 /* ============================================ */
 img {
-  display: block;
-  max-width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 /* ============================================ */
