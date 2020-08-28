@@ -377,6 +377,7 @@ template {
 /* ============================================ */
 .grid {
   display: grid;
+  margin: 0 auto;
   max-width: 1000px;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   grid-template-rows: repeat(3, 1fr);
@@ -396,7 +397,7 @@ img {
 /* ============================================ */
 input {
   margin: 100px;
-  max-width: 500px;
+  max-width: 800px;
   padding: 15px;
   border-radius: 20px;
 }
