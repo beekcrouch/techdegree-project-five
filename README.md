@@ -1,6 +1,6 @@
 # Photo Gallery Project
 
-## Introduction - 
+## Introduction
 A Photo Gallery project I've built from scratch while using baguette.Box.js to add a Light-box functionality when viewing photos. I wanted to learn about some simple JavaScript implementation!
 
 ## Sources
