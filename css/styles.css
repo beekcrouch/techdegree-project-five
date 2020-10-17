@@ -396,10 +396,12 @@ img {
 /*            Searchbar Styling                 */
 /* ============================================ */
 input {
-  margin: 100px;
+  margin: 80px;
   max-width: 800px;
   padding: 15px;
   border-radius: 20px;
+  text-align: center;
+  display: block;
 }
 
 /*# sourceMappingURL=styles.css.map */
