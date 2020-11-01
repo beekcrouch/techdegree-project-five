@@ -10,3 +10,7 @@ input {
     text-align: center;
     display: block;
 }
+
+input:focus {
+    border-radius: 20px;
+}
