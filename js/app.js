@@ -1,3 +1,3 @@
 
 baguetteBox.run('.gallery');​
-const search = new Filter('search', 'data-caption');
+let search = new Filter('search', 'data-caption');

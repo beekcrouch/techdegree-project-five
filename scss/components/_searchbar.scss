@@ -11,6 +11,7 @@ input {
     display: block;
 }
 
-input:focus {
-    border-radius: 20px;
+&:focus {
+    background-color:green;
+    border-radius: 50px;
 }
