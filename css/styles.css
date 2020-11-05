@@ -14,8 +14,9 @@
 /*             Base Imports                     */
 /* ============================================ */
 /* ============================================ */
-/*            Typography                        */
+/*            Body & Typography                 */
 /* ============================================ */
+@import 'baguettebox.js/dist/baguetteBox.min.css';
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +29,7 @@ body {
   font-weight: bold;
   padding: 0;
   margin: 0;
+  background-image: "photos/corkboard.jpg";
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -377,7 +379,7 @@ template {
 /* ============================================ */
 .grid {
   display: grid;
-  margin: 0 auto;
+  margin: 30px auto;
   max-width: 1000px;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   grid-template-rows: repeat(3, 1fr);
@@ -396,12 +398,19 @@ img {
 /*            Searchbar Styling                 */
 /* ============================================ */
 input {
-  margin: 80px;
+  margin: 30px auto;
   max-width: 800px;
   padding: 15px;
-  border-radius: 20px;
   text-align: center;
   display: block;
+}
+input:focus {
+  background-color: #6f8665;
+  color: white;
+  border: solid;
+}
+input:focus::placeholder {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
