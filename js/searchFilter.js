@@ -3,8 +3,7 @@ function filter() {
     
     var input, ul, li, a, i;
         input = document.getElementById("search");
-        addEventListener("keyup");
-        filter = input.value.toUpperCase();
+        filterValue = input.value.toUpperCase();
         ul = document.getElementById("gallery");
         li = ul.getElementsByTagName("li");
         
