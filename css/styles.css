@@ -384,7 +384,7 @@ template {
   display: grid;
   margin: 30px auto;
   max-width: 1000px;
-  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-template-rows: repeat(3, 1fr);
   gap: 25px;
 }
