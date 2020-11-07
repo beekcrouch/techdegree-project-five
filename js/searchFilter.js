@@ -18,5 +18,3 @@ function filter() {
             }
         }
     }
-
-    console.log(search);
