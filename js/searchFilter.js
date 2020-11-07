@@ -3,7 +3,7 @@ function filter() {
     var filterValue, input, ul, li, a, i;
         input = document.getElementById("search");
         filterValue = input.value.toUpperCase();
-        ul = document.getElementById("Menu");
+        ul = document.getElementById("data-caption");
         li = ul.getElementsByTagName("li");
         
         for (i = 0 ; i < li.length ; i++){
